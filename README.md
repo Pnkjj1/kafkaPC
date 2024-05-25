@@ -11,4 +11,13 @@ g++ -std=c++11 consumer.cpp message.pb.cc -lrdkafka -lprotobuf -lpthread -o cons
 protoc --cpp_out=. message.proto
 
 
+#for kafka zookeeper start  version
+kafka_2.12-3.7.0
+
+#for compiling rdkafka code
+use librdkafka++.so in rdkaf.tar.gz 
+#download kafka libs
+sudo apt-get install librdkafka-dev
+
+
 
